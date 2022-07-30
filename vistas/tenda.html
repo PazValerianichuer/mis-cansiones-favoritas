@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cine</title>
+  <link rel="stylesheet" href="../css/principal.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header id="encabezado" class="bloque-fondo">
+    <!-- Logo y título -->
+    <a href="../index.html" class="alineado-centrado">
+      <img id="logo" src="../images/logo.png" alt="Logo de mi página">
+      <h1 id="titulo">Cine</h1>
+    </a>
+    <!-- Redes sociales -->
+    <div id="ligas">
+      <a href="">Cajas de musica</a>
+    </div>
+  </header>
+  <!-- Contenido principal -->
+  <div id="contenido-principal" class="bloque-fondo" style="display:block; width: 300px;">
+    <h2>Compra tu boleto online</h2>
+    <p>Introduce tu información:</p>
+    <!-- Edad -->
+    <label for="edad">Dinos tu edad:</label>
+    <input type="number" name="edad" id="edad" min="10" max="99" value="10">
+    <!-- Cupón -->
+    <p>¿Tienes un cupón de descuento?</p>
+    <div style="text-align: center;">
+      <label for="cupon-1">Sí</label>
+      <input type="radio" name="cupon" id="cupon-1">
+      <label for="cupon-2">No</label>
+      <input type="radio" name="cupon" id="cupon-2" checked>
+    </div>
+    <div style="text-align: center;">
+      <button onclick="calcular()">Calcular precio</button>
+    </div>
+    <p id="total">Total: $0</p>
+  </div>
+  <script src="../js/cine.js"></script>
+</body>
+</html>
