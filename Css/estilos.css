@@ -1,0 +1,157 @@
+body {
+    font-size: 22px;
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    text-align: left;
+    background-image: url('../images/fondo.png');
+    background-size: cover;
+  }
+ 
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header a {
+    text-decoration: none;
+  }
+  
+  #logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+    transition: 1s;
+  }
+
+  #logo:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+  }
+ 
+  titulo {
+    color: rgb(82, 40, 160);
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px black;
+    font-size: 72px;
+    margin: 0;
+    transition: 0.5s;
+  }
+ 
+  #titulo:hover {
+    letter-spacing: 10px;
+    transition: 0.5s;
+  }
+ 
+  #juego-seleccionado {
+    text-align: center;
+  }
+ 
+  #juegos-lista {
+    min-width: 275px;
+    text-align: center;
+  }
+  
+  #juegos-lista button {
+    background-color:rgb(26, 101, 194);
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    width: 95%;
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    padding: 5px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-width: 4px;
+    border-color: rgb(20, 72, 136);
+    border-radius: 8px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  #juegos-lista button:hover,
+#juegos-lista button.seleccionado {
+  background-color: rgb(22, 159, 66);
+  border-color: rgb(23, 108, 50);
+  width: 100%;
+    transition: 0.5s;
+    }
+
+ #contenido-principal {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .bloque-fondo {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 16px;
+  }
+  
+  .alineado-centrado {
+    display: flex;
+    align-items: center;
+  }
+  
+  #encabezado {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  .caja {
+    text-align: center;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: #011936;
+    background-color: #011936;
+    margin: 24px;
+    transition: 0.5s;
+  }
+  
+  caja:hover {
+    border-color: #17C3B2;
+    background-color: #17C3B2;
+    transition: 0.5s;
+  }
+
+  .caja h2 {
+    color: white;
+    margin: 5px;
+    transition: 0.5s;
+    text-decoration: line-through;
+  }
+  
+  .caja:hover h2 {  
+  text-decoration: none;
+  }
+  
+  .caja img {
+    filter: blur(2.5px) grayscale(60%);
+    height: 300px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+  
+  .caja:hover img {
+    filter: blur(0px) grayscale(0%);
+    transition: 0.5s;
+  }
+  
+  #ligas a {
+    border-radius: 8px;
+    background-color: #FE6D73;
+    color: white;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-color: #b34347;
+    transition: 0.5s;
+  }
+  
+  #ligas a:hover {
+    background-color: #fc9fa2;
+    border-color: #FE6D73;
+    transition: 0.5s;
+  }

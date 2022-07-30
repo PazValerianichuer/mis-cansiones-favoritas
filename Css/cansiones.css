@@ -1,0 +1,35 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url( 'https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  background-image: url("../music_fondo.jpg");
+  background-size: cover;
+  font-family: "Oswald";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cansion {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    text-align: center;
+    padding: 10px;
+  }
+  #cancion h1 {
+    font-size: 60px;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  #cancion h3 {
+    font-size: 30px;
+    margin: 0;
+  }
+  #cancion img {
+    width: 250px;
+  }
+  #nav button {
+    background-color: transparent;
+    border-style: none;
+    font-size: 50px;
+    cursor: pointer;
+  } 
