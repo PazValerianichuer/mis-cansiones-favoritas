@@ -2,7 +2,7 @@ body {
     font-size: 22px;
     font-family: 'Noto Sans', sans-serif;
     color: black;
-    text-align: center;
+    text-align: Center;
     background-image: url('../images/fondo.png');
     background-size: cover;
   }
