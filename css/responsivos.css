@@ -1,0 +1,47 @@
+
+/*
+  max-width anchura máxima
+  min-width anchura mínima
+  max-height altura máxima
+  min-height altura mínima
+*/
+
+@media screen and (max-width:  871px ) {
+    #título:hover {
+      letter-spacing: normal;
+      }
+   }
+
+  @media screen and (max-width:  754px ) { 
+    #titulo  {
+      display: none; 
+     }
+
+    #contenido-principal {
+        flex-direction:  columna ;
+      }
+
+      #button musica-lista  {
+       display: inline-block;
+       width :auto
+    }
+
+      #botón de cansiones-lista :pasar el mouse , 
+  #button  cansiones-lista  .selected {
+    width : auto;
+  }
+
+  .bloque de fondo {
+    margin :  10 px ;
+  }
+ }
+ 
+@media screen and (max-width: 380px) {
+    #ligas {
+      display: none;
+    }
+
+    #encabezado {
+        justify-content : centro ;
+    }
+  }
