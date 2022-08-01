@@ -1,6 +1,6 @@
 
 // Variables principales
-const url = "https://musica.png/api/v2/musica/";
+const url = "/musica.png/api/v2/musica/";
 const cansiom_max = 898;
 let cansion_actual = 1;
 
