@@ -1,0 +1,52 @@
+[
+    {
+      "nombre": "voses en mi interior",
+      "descripcion": "voses en mi interior de porta con santaflow del album transtorno bipolar fue publicado en 2009 que relata la historia de un joven que sufre de bullyng escolar el cual con el paso del tiempo lo vuelbe loco asta tal punto de que quisiera quemar su aula de clases.",
+      "imagen": "imagenes/porta.jpg"
+    },
+    {
+      "nombre": "titeres",
+      "descripcion": "la cansion del artista dante titeres fue lansada en 2020 sobre un tema de critica directa a la sociedad y politica actual.",
+      "imagen": "imagenes/dante.jpg"
+    },
+    {
+      "nombre": "interpuesto-Quien te cantara",
+      "descripcion": "la cansion de interpuesto quien te canta es del album fantasma electrico su fecha de lanzaminto fue en 2014.",
+      "imagen": "imagenes/interpuesto.jpg"
+    },
+    {
+      "nombre": "en boca te tantos",
+      "descripcion": "boca de tantos del artitsta Porta es una cansion que se pulico en el 2007 b.",
+      "imagen": "imagenes/porta.jpg"
+    },
+    {
+      "nombre": "las dos caras",
+      "descripcion": "las dos caras cansion echa por santaflow con con el artista eneyser del album Ave Fenix fue lansada en el 2010 .",
+      "imagen": "imagenes/santaflow.jpg"
+    },
+    {
+      "nombre": "las cartas sobrela mesa",
+      "descripcion": "las cartas sobre la mesa es una cansion del genero hip-hop/rap que fue lanzada en 2014 en el album de Red Vol.1: El retomo del Fenix por santaflow.",
+      "imagen": "imagenes/santaflow.jpg"
+    },
+    {
+      "nombre": "palabras mudas",
+      "descripcion": "la cansion Palabras mudas del album Reset con el genero de Hip-hop/rap fue lanzada por el artista Porta.",
+      "imagen": "imagenes/porta.jpg"
+    },
+    {
+      "nombre": "hay siempre un sentimiento muerto en un corazon roto",
+      "descripcion": "Hay siempre un sentimiento muerto en un corazon roto es una cansion del album No hay truco que fue lanzasda en 2007 por el artista conosido como Porta .",
+      "imagen": "imagenes/porta.jpg"
+    },
+    {
+      "nombre": "fantasma enamorado",
+      "descripcion": "la cansion Fantasma enamorado deL YUTUBER Missa Sinfonia fue lanzada en el año 2017, cuenta con mas de 1.7M de vistas .",
+      "imagen": "imagenes/missa sinfonia.jpg"
+    },
+    {
+      "nombre": "cinismo",
+      "descripcion": "Cinismo del artista Dante , se cree que es un tipo de recordatorio de lo que es la humanidad en el mundo actual, actualmente cuenta con mas de 15M de vistas en yutube lanzada en el 2018 con el genero de Hip-hop/rap.",
+      "imagen": "imagenes/dante.jpg"
+    }
+  ]
