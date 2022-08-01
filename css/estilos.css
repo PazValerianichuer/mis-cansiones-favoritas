@@ -31,9 +31,9 @@ body {
   }
  
   titulo {
-    color: rgb(82, 40, 160);
+    color: rgb(160, 40, 62);
     font-family: 'Oswald', sans-serif;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px rgb(0, 145, 255);
     font-size: 72px;
     margin: 0;
     transition: 0.5s;
@@ -53,9 +53,9 @@ body {
     text-align: center;
   }
   
-  #juegos-lista button {
-    background-color:rgb(26, 101, 194);
-    color: white;
+  #musica-lista button {
+    background-color:rgb(26, 194, 118);
+    color: rgb(132, 183, 22);
     display: block;
     margin-bottom: 10px;
     width: 95%;
@@ -71,8 +71,8 @@ body {
     cursor: pointer;
   }
   
-  #juegos-lista button:hover,
-#juegos-lista button.seleccionado {
+  #musica-lista button:hover,
+#musica-lista button.seleccionado {
   background-color: rgb(22, 159, 66);
   border-color: rgb(23, 108, 50);
   width: 100%;
