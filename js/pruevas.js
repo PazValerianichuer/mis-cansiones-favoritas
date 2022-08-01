@@ -20,7 +20,7 @@ function cambiar_porta_Voces_en_mi_interior() {
     let titulo_cansion = document.querySelector("#cansion-seleccionado h2");
     titulo_cansion.innerHTML = "Quien te cantara";
     let caja = document.querySelector("#cansion-seleccionado img");
-    caja.src = "images/quien te cantara.jpg";
+    caja.src = "images/interpuesto.png";
     let desc_cansion = document.querySelector("#cansion-seleccionado p");
     desc_cansion.innerHTML = "la cancion de interpuesto quien te cantara es del album Fantasma Electrico su fecha de lanzamiento fue en 2014. ";
   }
