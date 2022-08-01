@@ -12,4 +12,4 @@ let altura = 30;
 let resultado = base * altura;
 
 // Mostrar el resultado
-console.log(resultado)
+console.log(resultado)    
