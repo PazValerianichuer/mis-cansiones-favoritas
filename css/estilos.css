@@ -3,10 +3,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
     color: black;
     text-align: Center;
-    background-image: url('../images/fond0.png');
+    background-image: url('../imágenes/fondo.png');
     background-size: cover;
   }
- 
+
   header {
     display: flex;
     justify-content: space-between;
