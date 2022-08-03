@@ -3,24 +3,24 @@ const url = "api/datos.json";
 let boton_activo = null;
 
 // Encontrar elementos de HTML
-const el_lista_musica = document.getElementById("cansiones-lista");
-const el_imagen = document.querySelector("#cansion-seleccionada img");
-const el_nombre = document.querySelector("#cansion-seleccionada h2");
-const el_desc = document.querySelector("#cansion-seleccionada p");
+const el_lista_musica = document.getElementById("musica-lista");
+const el_imagen = document.querySelector("#musica-seleccionada img");
+const el_nombre = document.querySelector("#musica-seleccionada h2");
+const el_desc = document.querySelector("#musican-seleccionada p");
 
 // Buscar desde nuestra propia base de datos
 fetch(url + "datos.json").then(function(respuesta) {
   return respuesta.json();
 }).then(function(datos) {
   console.log(datos);
-  // Pasar por cada cansion en la base de datos
+  // Pasar por cada musica en la base de datos
   for(let i = 0; i < datos.length; i+=1) {
     // Crear boton de HTML
     let boton = document.createElement("button");
     boton.innerHTML = datos[i].nombre;
-    // Alimentar la lista de cansiones
+    // Alimentar la lista de musica
     el_lista_musica.appendChild(boton);
-    // Agregar evento de dar clic a cada cansion
+    // Agregar evento de dar clic a cada musica
     boton.addEventListener("click", function() {
       // Cambiar imagen
       el_imagen.src = url + datos[i].imagen;

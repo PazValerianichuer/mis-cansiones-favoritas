@@ -1,29 +1,29 @@
 
 body {
-  background-image: url("../music_fondo.png");
+  background-image: url("imagenes/music_fondo.png");
   background-size: cover;
   font-family: "Oswald";
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#cansion {
+#musica {
     width: 300px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 16px;
     text-align: center;
     padding: 10px;
   }
-  #cancion h1 {
+  #musica h1 {
     font-size: 60px;
     margin: 0;
     text-transform: capitalize;
   }
-  #cancion h3 {
+  #musica h3 {
     font-size: 30px;
     margin: 0;
   }
-  #cancion img {
+  #musica img {
     width: 250px;
   }
   #nav button {
