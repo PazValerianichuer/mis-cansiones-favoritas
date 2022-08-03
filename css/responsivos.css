@@ -21,14 +21,14 @@
         flex-direction:  columna ;
       }
 
-      #button musica-lista  {
-       display: inline-block;
-       width :auto
+      #musica-lista button {
+        display: inline-block;
+        width: auto;
     }
 
-      #botón de cansiones-lista :pasar el mouse , 
-  #button  cansiones-lista  .selected {
-    width : auto;
+    #musica-lista button:hover, 
+    #musica-lista button.seleccionado {
+      width: auto;
   }
 
   .bloque de fondo {

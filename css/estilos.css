@@ -1,13 +1,13 @@
 body {
-    font-size: 22px;
-    font-family: 'Noto Sans', sans-serif;
-    color: black;
-    text-align: Center;
-    background-image: url('../imágenes/fondo.png');
-    background-size: cover;
-  }
-
-  header {
+  font-size: 22px;
+  font-family: 'Noto Sans', sans-serif;
+  color: black;
+  text-align: left;
+  background-image: url('imagenes/fondo.png');
+  background-size: cover;
+ } 
+ 
+ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
