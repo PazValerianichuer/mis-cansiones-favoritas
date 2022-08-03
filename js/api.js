@@ -1,9 +1,9 @@
 // Variables principales
-const url = "https://github.com/PazValerianichuer/mis-cansiones-favoritas.git/";
+const url = "api/datos.json";
 let boton_activo = null;
 
 // Encontrar elementos de HTML
-const el_lista_juegos = document.getElementById("cansiones-lista");
+const el_lista_musica = document.getElementById("cansiones-lista");
 const el_imagen = document.querySelector("#cansion-seleccionada img");
 const el_nombre = document.querySelector("#cansion-seleccionada h2");
 const el_desc = document.querySelector("#cansion-seleccionada p");
@@ -19,7 +19,7 @@ fetch(url + "datos.json").then(function(respuesta) {
     let boton = document.createElement("button");
     boton.innerHTML = datos[i].nombre;
     // Alimentar la lista de cansiones
-    el_lista_juegos.appendChild(boton);
+    el_lista_musica.appendChild(boton);
     // Agregar evento de dar clic a cada cansion
     boton.addEventListener("click", function() {
       // Cambiar imagen
@@ -28,13 +28,13 @@ fetch(url + "datos.json").then(function(respuesta) {
       el_nombre.innerHTML = datos[i].nombre;
       // Cambiar descripción 
       el_desc.innerHTML = datos[i].descripcion;
-      // Checar si el botón activo existe y quitarle la clase "seleccionado"
+      // Checar si el botón activo existe y quitarle la clase "seleccionada"
       if(boton_activo != null) {
-        boton_activo.classList.remove("seleccionado");
+        boton_activo.classList.remove("seleccionada");
       }
-      // Agregar clase de seleccionado
-      boton.classList.add("seleccionado");
-      // Dejar como botón activo el botón seleccionado
+      // Agregar clase de seleccionada
+      boton.classList.add("seleccionada");
+      // Dejar como botón activo el botón seleccionada
       boton_activo = boton;
     });
     // Darle clic siempre al primer elemento
