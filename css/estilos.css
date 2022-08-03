@@ -44,11 +44,11 @@ body {
     transition: 0.5s;
   }
  
-  #juego-seleccionado {
+  #musica-seleccionado {
     text-align: center;
   }
  
-  #juegos-lista {
+  #musica-lista {
     min-width: 275px;
     text-align: center;
   }
