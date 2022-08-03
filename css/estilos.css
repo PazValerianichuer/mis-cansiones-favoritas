@@ -3,8 +3,8 @@ body {
   font-family: 'Noto Sans', sans-serif;
   color: black;
   text-align: left;
-  background-image: url('..imagenes/fondo.png');
-  background-size: cover;
+  background-image: url('../imagenes/fondo.png');
+  background-size: 100;
  } 
  
  header {
