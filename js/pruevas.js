@@ -1,5 +1,5 @@
 function cambiar_porta_Voces_en_mi_interior() {
-    let titulo_musica = document.querySelector("voses en mi interior-seleccionado h2");
+    let titulo_musica = document.querySelector("#musica-seleccionado h2");
     titulo_musica.innerHTML = "voses en mi interior";
     let caja = document.querySelector("#musica-seleccionada img");
     caja.src = "musica/porta.png";
