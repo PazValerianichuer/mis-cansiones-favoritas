@@ -1,6 +1,6 @@
 
 // Variables principales
-const url="https://raw.githubusercontent.com/PazValerianichuer/mis-cansiones-favoritas-api/ ";
+const url=" https://pazvalerianichuer.github.io/mis-cansiones-favoritas-api/";
 const cansiom_max = 898;
 let musica_actual = 1;
 
