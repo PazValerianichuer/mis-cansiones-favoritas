@@ -1,12 +1,12 @@
 // Variables principales
-const url = "api/datos.json";
+const url = "https://raw.githubusercontent.com/PazValerianichuer/mis-cansiones-favoritas-api/main/";
 let boton_activo = null;
 
 // Encontrar elementos de HTML
 const el_lista_musica = document.getElementById("musica-lista");
 const el_imagen = document.querySelector("#musica-seleccionada img");
 const el_nombre = document.querySelector("#musica-seleccionada h2");
-const el_desc = document.querySelector("#musican-seleccionada p");
+const el_desc = document.querySelector("#musica-seleccionada p");
 
 // Buscar desde nuestra propia base de datos
 fetch(url + "datos.json").then(function(respuesta) {

@@ -4,7 +4,7 @@ body {
   color: black;
   text-align: left;
   background-image: url('../imagenes/fondo.png');
-  background-size: 100;
+  background-size: 50px;
  } 
  
  header {
@@ -73,7 +73,7 @@ body {
   
   #musica-lista button:hover,
 #musica-lista button.seleccionado {
-  background-color: rgb(22, 159, 66);
+  background-color: rgb(38, 22, 159);
   border-color: rgb(6, 14, 9);
   width: 100%;
     transition: 0.5s;
@@ -106,7 +106,7 @@ body {
     border-style: solid;
     border-radius: 16px;
     border-color: #011936;
-    background-color: #011936;
+    background-color: #2374d7;
     margin: 24px;
     transition: 0.5s;
   }
