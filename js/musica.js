@@ -1,8 +1,8 @@
 
 // Variables principales
-const url = "/musica.png/api/v2/musica/";
+const url="https://raw.githubusercontent.com/PazValerianichuer/mis-cansiones-favoritas-api/main/datos.json/ ";
 const cansiom_max = 898;
-let cansion_actual = 1;
+let musica_actual = 1;
 
 // Encontrar elementos de HTML con JS
 const el_numero = document.querySelector("h3");
