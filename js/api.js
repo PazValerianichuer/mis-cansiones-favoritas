@@ -1,5 +1,5 @@
 // Variables principales
-const url = "https://pazvalerianichuer.github.io/mis-cansiones-favoritas-api/musica";
+const url = "https://pazvalerianichuer.github.io/mis-cansiones-favoritas-api/";
 let boton_activo = null;
 
 // Encontrar elementos de HTML
