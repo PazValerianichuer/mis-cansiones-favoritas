@@ -4,7 +4,7 @@ body {
   color: black;
   text-align: left;
   background-image: url('../imagenes/fondo.png');
-  background-size: cover;
+  background-size: 100px;
  } 
  
  header {
