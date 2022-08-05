@@ -1,6 +1,6 @@
 
 // Variables principales
-const url="musica/";
+const url="PazValerianichuer/mis-cansiones-favoritas/musica";
 const cansiom_max = 898;
 let musica_actual = 1;
 
