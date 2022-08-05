@@ -2,7 +2,7 @@ function cambiar_porta_Voces_en_mi_interior() {
     let titulo_musica = document.querySelector("#musica-seleccionado h2");
     titulo_musica.innerHTML = "voses en mi interior";
     let caja = document.querySelector("#musica-seleccionada img");
-    caja.src = "musica/porta.png";
+    caja.src = "vistas/musica/porta.png";
     let desc_musica = document.querySelector("#musica-seleccionada p");
     desc_juego.innerHTML = "voses en mi interior de porta con santaflow del album transtorno bipolar fue publicada en 2009 que relata la historia de un joven que sufre de bullyng escolar el cual con el paso del tiempo lo vuelve loco y crea un insendio en su aula de clases";
   }
@@ -11,7 +11,7 @@ function cambiar_porta_Voces_en_mi_interior() {
     let titulo_musica = document.querySelector("#musica-seleccionada h2");
     titulo_musica.innerHTML = "titeres";
     let caja = document.querySelector("#musica-seleccionada img");
-    caja.src = "musica/Dante.png";
+    caja.src = "vistas/musica/Dante.png";
     let desc_musica = document.querySelector("#musica-seleccionada p");
     desc_musica.innerHTML = "la cansion del artista Dante titeres fue lansada en 2020 sobre un tema de critica direscta a la sosiedad y politica actual";
   }
@@ -20,7 +20,7 @@ function cambiar_porta_Voces_en_mi_interior() {
     let titulo_musica = document.querySelector("#cansion-seleccionado h2");
     titulo_musica.innerHTML = "Quien te cantara";
     let caja = document.querySelector("#musica-seleccionado img");
-    caja.src = "musica/interpuesto.png";
+    caja.src = "vistas/musica/interpuesto.png";
     let desc_musica = document.querySelector("#musica-seleccionado p");
     desc_musica.innerHTML = "la cancion de interpuesto quien te cantara es del album Fantasma Electrico su fecha de lanzamiento fue en 2014. ";
   }
